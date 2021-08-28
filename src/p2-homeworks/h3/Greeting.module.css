@@ -1,0 +1,38 @@
+.inputClass {
+    background: grey;
+    width: 250px;
+    height: 40px;
+    padding: 6px 15px;
+    box-shadow: none;
+    border: 1px solid black;
+    background: rgba(51,51,51,.5);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.button{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    padding: 9px 25px;
+    text-transform: capitalize;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+    background: rgba(51,51,51,.5);
+    border-radius: 0;
+    width: 100px;
+}
+
+.text{
+    color: white;
+}
