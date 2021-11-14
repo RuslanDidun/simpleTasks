@@ -27,8 +27,7 @@ function HW4() {
     return (
         <div>
             <hr/>
-            homeworks 4
-
+#4
             <div className={s.column}>
                 <SuperInputText
                     value={text}
@@ -65,23 +64,15 @@ function HW4() {
                 <SuperCheckbox
                     onChange={() => setChecked(!checked)}
                     onChangeChecked={setChecked}>
-                    test checkbox {/*// этот текст попадёт в children*/}
+                    test checkbox
                 </SuperCheckbox>
 
-                {/*// onChange тоже должен работать*/}
                 <SuperCheckbox
                     checked={checked}
 
                     onChange={testOnChange}/>
 
             </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperInputText/>*/}
-            {/*<AlternativeSuperButton/>*/}
-            {/*<AlternativeSuperCheckbox/>*/}
-            <hr/>
         </div>
     )
 }

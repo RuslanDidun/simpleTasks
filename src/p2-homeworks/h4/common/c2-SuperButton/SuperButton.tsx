@@ -1,5 +1,5 @@
 import React, {ButtonHTMLAttributes, DetailedHTMLProps} from 'react'
-import s from './SuperButton.module.css'
+import style from '../../../../commonComponents/commonComponents.module.css'
 
 // тип пропсов обычной кнопки, children в котором храниться название кнопки там уже описан
 type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>
@@ -14,7 +14,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
         ...restProps// все остальные пропсы попадут в объект restProps, там же будет children
     }
 ) => {
-    const finalClassName = `${red ? s.red : s.default} ${className}`
+    const finalClassName = `${red ? `${style.red} ${style.button}` : style.button} ${className}`
 
     return (
         <button

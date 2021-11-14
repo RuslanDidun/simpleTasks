@@ -1,4 +1,7 @@
-.text {
-color: white;
-    padding: 20px;
+.buttonPosition {
+    margin: 10px
+}
+
+.buttonPosition button {
+    margin: 5px
 }

@@ -1,0 +1,12 @@
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin: 30px 0 30px 0;
+    font-weight: 200;
+    text-transform: capitalize;
+    color: #ffffff;
+    position: relative;
+    padding: 5px;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
-import styles from './Affairs.module.css'
 import {AffairType} from "./HW2";
+import styles from '../../commonComponents/Title.module.css'
+import Button from "../../commonComponents/Button";
 
 type AffairPropsType = {
     affair: AffairType
@@ -12,8 +13,7 @@ function Affair(props: AffairPropsType) {
 
     return (
         <div>
-            <span className={styles.text}>* {props.affair.name} *</span>
-
+            <span className={styles.title}>* {props.affair.name} *</span>
             <button onClick={deleteCallback}>X</button>
         </div>
     )
