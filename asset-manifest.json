@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/simpleTasks/static/css/main.8b13eb6c.chunk.css",
-    "main.js": "/simpleTasks/static/js/main.a6b1b837.chunk.js",
-    "main.js.map": "/simpleTasks/static/js/main.a6b1b837.chunk.js.map",
+    "main.js": "/simpleTasks/static/js/main.856220ac.chunk.js",
+    "main.js.map": "/simpleTasks/static/js/main.856220ac.chunk.js.map",
     "runtime-main.js": "/simpleTasks/static/js/runtime-main.3dfc7a38.js",
     "runtime-main.js.map": "/simpleTasks/static/js/runtime-main.3dfc7a38.js.map",
-    "static/js/2.d914369d.chunk.js": "/simpleTasks/static/js/2.d914369d.chunk.js",
-    "static/js/2.d914369d.chunk.js.map": "/simpleTasks/static/js/2.d914369d.chunk.js.map",
+    "static/js/2.c16ddfdd.chunk.js": "/simpleTasks/static/js/2.c16ddfdd.chunk.js",
+    "static/js/2.c16ddfdd.chunk.js.map": "/simpleTasks/static/js/2.c16ddfdd.chunk.js.map",
     "index.html": "/simpleTasks/index.html",
     "static/css/main.8b13eb6c.chunk.css.map": "/simpleTasks/static/css/main.8b13eb6c.chunk.css.map",
-    "static/js/2.d914369d.chunk.js.LICENSE.txt": "/simpleTasks/static/js/2.d914369d.chunk.js.LICENSE.txt",
+    "static/js/2.c16ddfdd.chunk.js.LICENSE.txt": "/simpleTasks/static/js/2.c16ddfdd.chunk.js.LICENSE.txt",
     "static/media/preloader.ea356991.svg": "/simpleTasks/static/media/preloader.ea356991.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3dfc7a38.js",
-    "static/js/2.d914369d.chunk.js",
+    "static/js/2.c16ddfdd.chunk.js",
     "static/css/main.8b13eb6c.chunk.css",
-    "static/js/main.a6b1b837.chunk.js"
+    "static/js/main.856220ac.chunk.js"
   ]
 }
