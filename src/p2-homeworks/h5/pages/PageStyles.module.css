@@ -1,0 +1,47 @@
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.preJunior {
+    color: #F0B666
+}
+
+.junior {
+    color: #E99557;
+}
+
+.upperJunior {
+    color: #DCCC9F;
+}
+
+.innerDiv:hover {
+    transition-duration: 1s;
+    transform: translate(0);
+}
+
+.innerDiv {
+    margin-top: 10px;
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-320px);
+    transition: 500ms;
+}
+
+.visibleBlock{
+    margin: 0 0 10px 10px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0;
+    height: 30px;
+    width: 30px;
+}
