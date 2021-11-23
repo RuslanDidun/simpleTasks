@@ -4,6 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "../h10/bll/store";
 import {changeThemeAC, ThemeType} from "./bll/themeReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
 
 const themes = ['dark', 'red', 'green']
 
@@ -22,10 +23,10 @@ function HW12() {
             <span className={s[theme + '-text']}>
                 #12
             </span>
-            {/*<SuperSelect
+            <SuperSelect
                 onChangeOption={changeThemeCallback}
                 options={themes}
-            />*/}
+            />
 
             <SuperButton onClick={() => changeThemeCallback('red')}>
                 Red
